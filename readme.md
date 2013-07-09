@@ -15,8 +15,8 @@ node "some-client.example.com" {
 Available parameters and their default values:
 
 ```puppet
-$zabbix_servers = $title,
-$zabbix_agent_hostname = $hostname,
+$zabbix_servers = $title
+$zabbix_agent_hostname = $hostname
 ```
 
 License
