@@ -16,8 +16,8 @@ Available parameters and their default values:
 
 ```puppet
 zabbix::agent{ "zabbix-server.example.com":
-	$zabbix_servers=$title,
-	$zabbix_agent_hostname=$hostname,
+	$zabbix_servers = $title,
+	$zabbix_agent_hostname = $hostname,
 }
 ```
 
